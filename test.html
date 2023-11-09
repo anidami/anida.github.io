@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Heist </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" rel="stylesheet">
+    <script crossorigin="anonymous"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/test.css">
+    <script src="js/seasonJS.js"></script>
+
+    <link type="Image/x-icon" href="images/favic.jpg" rel="icon">
+    <style>
+        body {
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+
+<!--navBar-->
+<header class="header">
+
+    <a href="#" class="logo nav-link ">
+        <img src="images/favic.jpg" alt="MoneyHeist Logo" style="width: 5.5rem; height: 5.5rem;">
+        Money<span>Heist</span>
+    </a>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="index.html" class="nav-link active">home</a>
+        <a href="about.html" class="nav-link ">about</a>
+        <a href="5Season.html" class="nav-link ">5 season</a>
+        <a href="Seasons.html" class="nav-link active">seasons</a>
+        <a href="quiz.html" class="nav-link">quiz</a>
+        <a href="test.html" class="nav-link">test</a>
+        <a href="buyMerch.html" class="nav-link">merch</a>
+        <a href="login.html" class="nav-link ">login</a>
+    </nav>
+</header>
+
+
+<header class="bg-dark text-white text-center p-4" ><h2 style="font-weight: bolder">Money Heist Test</h2></header>
+
+<div class="intro" style="z-index: 0">
+    <div class="video">
+        <video class="video__media" src="images/intryxa.mp4" autoplay muted loop></video>
+    </div>
+</div>
+<section style="color: crimson;margin-top: 450px">
+
+
+    <div class="container header-quiz">
+        <form id="quizForm">
+
+
+            <div class="start_btn">
+                <button>Test Yourself</button>
+            </div>
+
+
+            <div class="info_box">
+                <div class="info-title" style="background: black"><span>Some Rules of this Quiz</span></div>
+                <div class="info-list" style="background: black">
+                    <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+                    <div class="info">2. Once you select your answer, it can't be undone.</div>
+                    <div class="info">3. You can't select any option once time goes off.</div>
+                    <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+                    <div class="info">5. You'll get points on the basis of your correct answers.</div>
+                </div>
+                <div class="buttons" style="background: black">
+                    <button class="quit" style="color: #be0606">Exit Quiz</button>
+                    <button class="restart" style="color: #be0606">Continue</button>
+                </div>
+            </div>
+
+
+            <div class="quiz_box">
+                <header id="quiz-header">
+                    <div class="title">Money Heist Test</div>
+                    <div class="timer">
+                        <div class="time_left_txt">Time Left</div>
+                        <div class="timer_sec">15</div>
+                    </div>
+                    <div class="time_line"></div>
+                </header>
+                <section style="padding: 5rem 9%">
+                    <div class="que_text" style="color: #be0606">
+
+                    </div>
+                    <div class="option_list" style="color: #be0606">
+
+                    </div>
+                </section>
+
+
+                <footer id="quiz-footer">
+                    <div class="total_que">
+
+                    </div>
+                    <button class="next_btn" style="background: black;color: #be0606; border-color: #be0606">Next
+                        Question
+                    </button>
+                </footer>
+            </div>
+
+
+            <div class="result_box" style="background: #343a40">
+                <div class="icon">
+                </div>
+                <div class="complete_text">Сompleted the Quiz!</div>
+                <div class="score_text">
+                    <!-- Here I've inserted Score Result from JavaScript -->
+                </div>
+                <div class="buttons">
+                    <button class="restart">Replay Quiz</button>
+                    <button class="quit">Quit Quiz</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<section class="footer" style="z-index: -2">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a class="links" href="index.html">home</a>
+            <a class="links" href="about.html">about</a>
+            <a class="links" href="5Season.html">season</a>
+            <a class="links" href="Seasons.html">seasons</a>
+            <a class="links" href="quiz.html">quiz</a>
+            <a class="links" href="test.html">test</a>
+            <a class="links" href="buyMerch.html">merch</a>
+            <a class="links" href="login.html">login</a>
+        </div>
+
+        <div class="box">
+            <h3>Contact info</h3>
+            <p><i class="fas fa-phone"></i> Álex Pina </p>
+            <p><i class="fas fa-envelope"></i> Alex_pina@gmail.com </p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="js/testJS.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/test2JS.js"></script>
+
+</body>
+</html>

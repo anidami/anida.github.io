@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Heist </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link type="Image/x-icon" href="images/favic.jpg" rel="icon">
+    <style>
+        body {
+            margin-top: 67px;
+        }
+    </style>
+</head>
+<body>
+
+<!--navBar-->
+<header class="header">
+
+    <a href="#" class="logo nav-link ">
+        <img src="images/favic.jpg" alt="MoneyHeist Logo" style="width: 5.5rem; height: 5.5rem;">
+        Money<span>Heist</span>
+    </a>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="index.html" class="nav-link active">home</a>
+        <a href="about.html" class="nav-link ">about</a>
+        <a href="5Season.html" class="nav-link ">5 season</a>
+        <a href="Seasons.html" class="nav-link active">seasons</a>
+        <a href="quiz.html" class="nav-link">quiz</a>
+        <a href="test.html" class="nav-link">test</a>
+        <a href="buyMerch.html" class="nav-link">merch</a>
+        <a href="login.html" class="nav-link ">login</a>
+    </nav>
+
+</header>
+
+
+<header class="bg-dark text-white text-center p-4"><h2 style="font-weight: bolder;color: #be0606">Who are you?</h2>
+</header>
+
+<!-- Quiz Section -->
+<section style="background: white" id="quiz" class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form id="quizForm">
+                <!-- Question 1 -->
+                <div class="form-group">
+                    <h4>Question 1:</h4>
+                    <p>1. What would you do if your got into trouble?</p>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q1a1" name="q1" class="custom-control-input" value="q1a1">
+                        <label class="custom-control-label" for="q1a1">He's going to handle it himself</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q1a2" name="q1" class="custom-control-input" value="q1a2">
+                        <label class="custom-control-label" for="q1a2">I'd ask others to help him</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q1a3" name="q1" class="custom-control-input" value="q1a3">
+                        <label class="custom-control-label" for="q1a3">I'd go to help in a heartbeat</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q1a4" name="q1" class="custom-control-input" value="q1a4">
+                        <label class="custom-control-label" for="q1a4">I'd stop to think and come with a plan</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q1a5" name="q1" class="custom-control-input" value="q1a5">
+                        <label class="custom-control-label" for="q1a5">If my friend is in a trouble, I'm in trouble
+                            too</label>
+                    </div>
+                </div>
+
+                <!-- Question 2 -->
+                <div class="form-group">
+                    <h4>Question 2:</h4>
+                    <p>
+                        2. What desk are you sitting at?</p>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q2a1" name="q2" class="custom-control-input" value="q2a1">
+                        <label class="custom-control-label" for="q2a1"> Front row
+                        </label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q2a2" name="q2" class="custom-control-input" value="q2a2">
+                        <label class="custom-control-label" for="q2a2"> Second row
+                        </label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q2a3" name="q2" class="custom-control-input" value="q2a3">
+                        <label class="custom-control-label" for="q2a3">Third row</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q2a4" name="q2" class="custom-control-input" value="q2a4">
+                        <label class="custom-control-label" for="q2a4">I'm not a student...</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q2a5" name="q2" class="custom-control-input" value="q2a5">
+                        <label class="custom-control-label" for="q2a5">Last row</label>
+                    </div>
+                </div>
+
+                <!-- Question 3 -->
+                <div class="form-group">
+                    <h4>Question 3:</h4>
+                    <p>3. What does friendship mean to you?
+                    </p>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q3a1" name="q3" class="custom-control-input" value="q3a1">
+                        <label class="custom-control-label" for="q3a1"> I don't have friends
+                        </label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q3a2" name="q3" class="custom-control-input" value="q3a2">
+                        <label class="custom-control-label" for="q3a2"> Support whatever the problem is
+                        </label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q3a3" name="q3" class="custom-control-input" value="q3a3">
+                        <label class="custom-control-label" for="q3a3">As long as it's about fun</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q3a4" name="q3" class="custom-control-input" value="q3a4">
+                        <label class="custom-control-label" for="q3a4">100% Trust</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q3a5" name="q3" class="custom-control-input" value="q3a5">
+                        <label class="custom-control-label" for="q3a5">Honesty and mutual respect</label>
+                    </div>
+                </div>
+
+                <!-- Question 4 -->
+                <div class="form-group">
+                    <h4>Question 4:</h4>
+                    <p>
+                        4. What would you spend your first million on?
+                    </p>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q4a1" name="q4" class="custom-control-input" value="q4a1">
+                        <label class="custom-control-label" for="q4a1"> I'd buy myself whole island
+                        </label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q4a2" name="q4" class="custom-control-input" value="q4a2">
+                        <label class="custom-control-label" for="q4a2"> I'd spent it on family and friends
+                        </label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q4a3" name="q4" class="custom-control-input" value="q4a3">
+                        <label class="custom-control-label" for="q4a3">Travel around the world</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q4a4" name="q4" class="custom-control-input" value="q4a4">
+                        <label class="custom-control-label" for="q4a4">I'd buy things from my bucket list</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q4a5" name="q4" class="custom-control-input" value="q4a5">
+                        <label class="custom-control-label" for="q4a5">I'd give most of it to my parents</label>
+                    </div>
+                </div>
+
+                <!-- Question 5 -->
+                <div class="form-group">
+                    <h4>Question 5:</h4>
+                    <p>5. Describe yourself in one word:
+
+                    </p>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q5a1" name="q5" class="custom-control-input" value="q5a1">
+                        <label class="custom-control-label" for="q5a1"> naive
+                        </label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q5a2" name="q5" class="custom-control-input" value="q5a2">
+                        <label class="custom-control-label" for="q5a2"> purposeful
+
+                        </label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q5a3" name="q5" class="custom-control-input" value="q5a3">
+                        <label class="custom-control-label" for="q5a3"> cold blooded</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q5a4" name="q5" class="custom-control-input" value="q5a4">
+                        <label class="custom-control-label" for="q5a4"> smart </label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q5a5" name="q5" class="custom-control-input" value="q5a5">
+                        <label class="custom-control-label" for="q5a5"> funny</label>
+                    </div>
+                </div>
+
+                <!-- Question 6 -->
+                <div class="form-group">
+                    <h4>Question 6:</h4>
+                    <p>
+                        6. Choose a country:
+                    </p>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q6a1" name="q6" class="custom-control-input" value="q6a1">
+                        <label class="custom-control-label" for="q6a1"> Brazil
+                        </label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q6a2" name="q6" class="custom-control-input" value="q6a2">
+                        <label class="custom-control-label" for="q6a2"> Kenya
+                        </label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q6a3" name="q6" class="custom-control-input" value="q6a3">
+                        <label class="custom-control-label" for="q6a3">Japan</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q6a4" name="q6" class="custom-control-input" value="q6a4">
+                        <label class="custom-control-label" for="q6a4">Spain</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q6a5" name="q6" class="custom-control-input" value="q6a5">
+                        <label class="custom-control-label" for="q6a5">USA</label>
+                    </div>
+                </div>
+                <!-- Question 7 -->
+                <div class="form-group">
+                    <h4>Question 7:</h4>
+                    <p> 7. What do you do when everything go wrong?
+                    </p>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q7a1" name="q7" class="custom-control-input" value="q7a1">
+                        <label class="custom-control-label" for="q7a1"> Panic
+                        </label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q7a2" name="q7" class="custom-control-input" value="q7a2">
+                        <label class="custom-control-label" for="q7a2"> Trying to comfort everyone
+                        </label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q7a3" name="q7" class="custom-control-input" value="q7a3">
+                        <label class="custom-control-label" for="q7a3">Nervous, but focused</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q7a4" name="q7" class="custom-control-input" value="q7a4">
+                        <label class="custom-control-label" for="q7a4">Finding new solution</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="q7a5" name="q7" class="custom-control-input" value="q7a5">
+                        <label class="custom-control-label" for="q7a5">Make everything even worse</label>
+                    </div>
+                </div>
+
+
+
+                <!-- Submit Button -->
+                <button class="btn btn-primary w-100" style="border-color: #f0141e; background: #f0141e">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Result Section -->
+<section id="result" class="container mt-5 d-none" style="background: #2f363c">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h1 style="color: #be0606">Your Money Heist Personality:</h1>
+            <h4 id="resultText" style="color: #be0606"></h4>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a class="links" href="index.html">home</a>
+            <a class="links" href="about.html">about</a>
+            <a class="links" href="5Season.html">season</a>
+            <a class="links" href="Seasons.html">seasons</a>
+            <a class="links" href="quiz.html">quiz</a>
+            <a class="links" href="test.html">test</a>
+            <a class="links" href="buyMerch.html">merch</a>
+            <a class="links" href="login.html">login</a>
+        </div>
+
+        <div class="box">
+            <h3>Contact info</h3>
+            <p><i class="fas fa-phone"></i> Álex Pina </p>
+            <p><i class="fas fa-envelope"></i> Alex_pina@gmail.com </p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<!-- Bootstrap & jQuery JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="js/quizJS.js"></script>
+</body>
+</html>
